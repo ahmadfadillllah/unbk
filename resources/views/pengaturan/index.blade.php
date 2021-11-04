@@ -208,15 +208,6 @@
       <p>
         Lengkapi form pengaturan Anda. Beberapa field kemungkinan bersifat mandatory/wajib. Semakin lengkap data Anda akan semakin sempurna aplikasi ini bekerja.
       </p>
-      @if($user->status == 'G' or $user->status == 'A')
-        <p>
-          Apabila mengalami kesulitan silahkan bergabung di grup Telegram <a href="https://t.me/joinchat/AAAAAEBw8pZR9SpdKAjpbw" target="_blank">Disini</a>, Facebook <a href="https://web.facebook.com/groups/937184553057468/" target="_blank">Disini</a>, serta selalu kunjungi akun anda di <a href="http://ayosinau.com" target="_blank">ayosinau.com</a> untuk mendapatkan informasi terkini terkait aplikasi ini.
-          File terbaru aplikasi ini bisa di temukan di akun Github TiXam<a href="https://github.com/wisnuvb/tixam" target="_blank">Disini</a>. Sangat kami sarankan untuk menggunakan <a href="https://getcomposer.org" target="_blank">Composser</a> dan <a href="https://git-scm.com" target="_blank">GIT</a> untuk mengupdate Aplikasi ini. Jangan lupa kasih bintang (<i class="fa fa-star-o" aria-hidden="true"></i>) ya <i class="fa fa-smile-o" aria-hidden="true"></i> <i class="fa fa-smile-o" aria-hidden="true"></i> <i class="fa fa-smile-o" aria-hidden="true"></i>.
-        </p>
-        <p>
-          Aplikasi ini dapat digunakan secara gratis dibawah lisensi dari Tipamedia. <b>Dilarang keras memperjual belikan aplikasi ini tanpa seizin dari Tipamedia</b>.
-        </p>
-      @endif
     </div>
   </div>
 </div>

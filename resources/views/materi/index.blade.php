@@ -14,7 +14,7 @@
         <h3 class="box-title">Daftar materi Anda</h3>
       </div>
       <div class="box-body">
-        <p class="alert alert-info"><i class="fa fa-info-circle"></i> Fitur materi masih dalam tahap pengembangan. Fitur ini sedang kami bangun integrasi dengan portal <a href="https://ayosinau.com" target="_blank">Ayosinau.com</a>. Untuk itu, selalu pantau update TiXam di akun Github TiXam ya <i class="fa fa-smile-o" aria-hidden="true"></i>.</p>
+        <p class="alert alert-info"><i class="fa fa-info-circle"></i> Fitur materi masih dalam tahap pengembangan <i class="fa fa-smile-o" aria-hidden="true"></i>.</p>
       </div>
     </div>
   </div>

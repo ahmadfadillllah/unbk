@@ -1,6 +1,6 @@
 <?php use Carbon\Carbon; ?>
 @extends('layouts.app')
-@section('title', 'TiXam - Aplikasi Ujian Berbasis Komputer')
+@section('title', 'Aplikasi Ujian Berbasis Komputer')
 @section('breadcrumb')
   <h1>Dashboard</h1>
   <ol class="breadcrumb">
@@ -13,7 +13,7 @@
   @if(Auth::user()->status == 'A')
     <div class="callout callout-info">
       <h4>Hai, <b>{{ Auth::user()->nama }} (Admin)</b></h4>
-      <p>Anda adalah admin aplikasi ini. Selalu pantau <a href="https://bit.ly/2AsLt8m" target="_blank">https://bit.ly/2AsLt8m</a> untuk mendapatkan update terbaru. Dan yuk ajak guru-guru menjadi kontributor <a href="http://ayosinau.com">Ayosinau.com</a>.</p>
+      <p>Anda adalah admin aplikasi ini. </p>
     </div>
   @endif
   @if(Auth::user()->status == 'A' || Auth::user()->status == 'G')
@@ -127,14 +127,13 @@
           <h3 class="box-title" style="color: coral"><i class="fa fa-info-circle"></i> Informasi</h3>
         </div>
         <div class="box-body">
-          <p>Terimakasih telah menggunakan aplikasi ujian (<b>TiXam</b>) dari <a href="https://tipa.co.id" target="_blank">Tipamedia</a> ini. Untuk melakukan update sangat disarankan menggunakan <i>git</i> dengan mengetikan <br><i>git pull origin master</i>.</p>
-          <p>Jangan lupa untuk berikan bintang di <a href="https://github.com/wisnuvb/tixam" target="_blank">github tixam</a> ya, supaya lebih banyak lagi yang bisa mengetahui dan menggunakan tixam.</p>
+          <p>Terimakasih telah menggunakan aplikasi Ujian Nasional Berbasis Komputer ini, Silahkan gunakan dengan bijak dan seksama </p>
         </div>
       </div>
     </div>
   @else
     <div class="alert" style="background: #fff; border: solid thin #d8d5d5;">
-      <p>Hai {{ Auth::user()->nama }}, Selamat datang di TiXam. Disini kamu bisa temukan materi yang telah disiapkan oleh Guru serta mengerjakan soal latihan dan ujian.</p>
+      <p>Hai {{ Auth::user()->nama }}, Selamat datang di aplikasi Ujian Nasional Berbasis Komputer. Disini kamu bisa temukan materi yang telah disiapkan oleh Guru serta mengerjakan soal latihan dan ujian.</p>
       <p>Pantau perkembangan kamu dengan melihat nilai-nilai latihan dan ujian dengan cepat.</p>
       <p>Apabila ada hal yang kurang dipahami, bisa ditanyakan kepada Guru atau operator sekolah yang mengelola aplikasi ini.</p>
     </div>

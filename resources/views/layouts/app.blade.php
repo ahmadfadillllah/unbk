@@ -70,9 +70,9 @@
     <!-- Logo -->
     <a href="{{ url('/') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>T</b>XM</span>
+      <span class="logo-mini"><b>UNBK</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Ti</b>Xam</span>
+      <span class="logo-lg"><b>Aplikasi UNBK</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -312,9 +312,9 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.0
+      <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2016-{{ date('Y') }} <a href="http://tipa.co.id" target="_blank">Tipamedia</a>.</strong> All rights
+    <strong>Copyright &copy; 2021-{{ date('Y') }} <a href="http://ahmadfadillah.my.id" target="_blank">Bahana Mulia</a>.</strong> All rights
     reserved.
   </footer>
 </div>
