@@ -32,7 +32,7 @@
   <!-- <link rel="stylesheet" href="{{ url('/assets/plugins/sweetalert-master/dist/sweetalert.css') }}"> -->
   <link rel="stylesheet" type="text/css" href="{{ url('/assets/plugins/sweetalert-master/themes/facebook/facebook.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('assets/plugins/sweetalert2-1.0.5/dist/sweetalert2.min.css') }}">
-  <link rel="icon" href="{{ url('/assets/img/favicon.jpg') }}" type="image/x-icon"/>
+  <link rel="icon" href="{{ url('/assets/img/favicon.png') }}" type="image/x-icon"/>
   <style type="text/css">
     .dataTable td{
       font-size: 10pt !important;
