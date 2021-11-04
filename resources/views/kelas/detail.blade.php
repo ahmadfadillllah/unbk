@@ -53,7 +53,7 @@
 	    	</tr>
 	    	<tr>
 	    		<td>Wali</td>
-	    		<td>{{ $kelas->wali->nama }}</td>
+	    		<td>{{ $kelas->wali }}</td>
 	    	</tr>
 	    </table>
     </div>
